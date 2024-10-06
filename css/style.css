@@ -26,3 +26,18 @@ main {
 .offcanvas-top{
     height: fit-content;
 }
+
+.offcanvas {
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  .offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .offcanvas-body {
+    padding: 20px;
+  }
